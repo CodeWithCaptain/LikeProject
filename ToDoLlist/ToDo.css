@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(125deg,rgb(118, 139, 174),rgb(205, 182, 249));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+.ToDo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vh;
+    max-width: 550px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 0px 12px gray;
+}
+.ToDo h1{
+    font-size: 2.8rem;
+    color: rgb(70, 91, 226);
+    text-decoration: ;
+}
+.Display input{
+    width: 400px;
+    height:40px;
+    border:none;
+    outline: none;
+    background-color: rgba(217, 197, 197, 0.396);
+    border-radius: 10px;
+    padding: 0px 8px;
+    font-size: 1rem;
+}
+.Display button{
+    width: 70px;
+    height:40px;
+    border:none;
+    outline: none;
+    background-color: rgb(247, 233, 80);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.Display button:hover{
+    background-color: rgb(253, 240, 103);
+}
+.ToDo ul{
+    font-size: 1.3rem;
+    list-style: none;
+    position: relative;
+    right:50px;
+    margin-top:20px;
+}
+.ToDo ul li{
+    background-color: rgba(217, 242, 92, 0.857);
+    width: 200px;
+    margin:10px;
+    padding: 7px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
